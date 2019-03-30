@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:showIn="@layout/activity_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".DetailActivity">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:orientation="vertical">
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Ini Nama Team"
+                  android:id="@+id/tvNamaTeam"
+                  android:gravity="center"
+                  android:textColor="@android:color/holo_red_dark"
+                  android:textStyle="bold"
+                  android:textSize="20dp"/>
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Ini Nama Stadiium"
+                  android:layout_marginTop="8dp"
+                  android:id="@+id/tvNamaStadium"
+                  android:textColor="@android:color/black"
+                  android:textStyle="bold"/>
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="8dp"
+                  android:text="Ini Deskription Stadiium"
+                  android:id="@+id/tvDescriptionStadium"
+                  android:textColor="@android:color/black"
+                  android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
